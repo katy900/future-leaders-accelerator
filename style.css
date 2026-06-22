@@ -1,0 +1,18 @@
+
+:root{--primary:#00A3AD;--secondary:#002B49;--accent:#6E49CB;}
+body{font-family:Poppins,sans-serif;background:#f4f8fa;margin:0}
+nav{background:var(--secondary);display:flex;justify-content:space-between;padding:15px}
+nav a{color:white;text-decoration:none;margin-left:15px}
+.logo-container{display:flex;align-items:center;gap:12px}
+.logo{height:45px}
+.logo-container span{color:white;font-weight:600}
+.hero{background:linear-gradient(135deg,#002B49,#00A3AD);color:white;text-align:center;padding:120px 20px}
+.btn{background:white;color:#002B49;padding:12px 24px;border-radius:25px;text-decoration:none}
+.program-purpose,.month,.card,.certificate{background:white;margin:25px;padding:25px;border-radius:20px;box-shadow:0 8px 20px rgba(0,0,0,.1)}
+.center{text-align:center}
+.accordion{width:100%;padding:20px;border:none;background:#002B49;color:white;border-radius:12px;font-size:1.1rem;text-align:left;cursor:pointer}
+.panel{display:none;padding:20px}
+.score{font-size:3rem;color:#00A3AD;font-weight:700}
+.bar{background:#ddd;height:20px;border-radius:20px}
+.bar span{display:block;height:100%;background:linear-gradient(90deg,#00A3AD,#6E49CB);border-radius:20px}
+.certificate{text-align:center;max-width:900px;margin:50px auto;border:4px solid #00A3AD}
